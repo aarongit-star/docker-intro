@@ -1,0 +1,91 @@
+
+# High level concept introduction
+
+## 1. 老师介绍
+- Yu Wang 老师--来自澳洲Atlassian公司
+- Jira SRE manager
+	主要工作确保 JIRA software 能够 24 X 7 正常运行
+
+## 2. 几个部分  
+
+第一部分：  What (Devops 是什么)
+   先 High level做个介绍
+   WHY (为什么)
+
+
+例子： 有10个developer ， 如果同时Release,整个流程下来
+这个循环中：
+PLAN& CODE ----developer经常做的，DEVOPS了解知道，会做些
+BUILD/RELEASE/DEPLOY----DEVOPS engineer 做的 
+OPERATE/TEST/MONITOR------SRE 有些重合,test大家都会做一点
+DEVOPS 是一个CULTURE,  每天定时好几次部署， 自动化的流程做保障，需要系统的方案来做，帮助DEVLOPER做的东西交付给用户。
+
+第二部分： Docker
+
+What is Docker?
+Why Docker?
+	key words:  easily pack, ship, and run any application as a lightweight/isolated container which is easily distributable and can run virtually anywhere.
+如图1：Docker 的使用会贯穿整个Devops的流程
+	
+![Alt text](images/cicdgitlab.png?raw=true)
+
+
+自动化流程来管理
+非常有价值和SCALABLE 的工作 
+
+举例：
+	A business owner run a company , to run a website in cloud.   before  hire only one developer,  after hire 10 developer  need more features and do the devlopment at the sime , conflicts might happen during release.
+如果
+火车理论：
+	打比方每个火车就是同一个起点出发， DEVOPS 相当于一个 COORDINATOR ， 如果有BUG 可以回到原点，加速我们FEATURE的DELOPYMENT,  DEVOPS设计好铁轨，MONITOR好铁轨。如何加速FEATURE的流程，造铁轨
+
+
+SRE 的 工作 ：
+小团队服务百万级用户使用云产品
+服务器（电脑） ----它的CPU,DISK ,MEMORY是有物理极限的,不预测对方是如何使用， 很容易导致我们的系统崩溃
+
+Q&A环节:
+1. SRE每天的工作流程:
+	1. reactive work
+	2. proactive work
+
+2. JUNIOR 需要达到什么水平： 老板给你ASSIGN 一个任务，解决问题
+
+MID-LEVEL: 做RESEARCH, 
+
+SENIOR-LEVLE: 设置METRICS,  90分钟----》 10分钟
+
+
+
+
+## 3. WHY (每节课HIGH LEVEL CONCEPT INTRODUCTION)
+
+
+## 4. Docker
+### -4.1 Docker introduction
+### -4.2 Docker handson -three major use cases
+#### -Handson #1 ：understand Docker image and container
+	command: build
+	command: run
+	command: stop
+	docker file: Devops can read and write
+	docker hub: alpine
+
+   Flask (Python framework)
+   http: default port 80
+   https: default port 443
+   you can use ports after 1024 like port 5000 or  port 5001
+
+
+app.py
+
+
+
+
+## 4 practices for docker file:
+
+
+#1. console-helloworld
+#2. web-nginx
+#3. web-python-flask
+#4. console-dependency
