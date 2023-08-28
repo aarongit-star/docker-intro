@@ -1,27 +1,25 @@
 # 笔记内容
  ## 1.老师介绍
  ## 2.主内容
-  2.1 第一部分---巩固Devops的概念
-  2.2 第二部分---Docker
-   2.2.1 Docker introduction
-   2.2.2 Docker CLI 手动练习handson来学习命令
-   2.2.3 Docker file 手动练习handson来学习命令
-   2.2.4 Docker-compose 手动练习handson来学习命令
+  ### 2.1 第一部分---巩固Devops的概念
+  ### 2.2 第二部分---Docker
+   #### 2.2.1 Docker introduction
+   #### 2.2.2 Docker CLI 手动练习handson来学习命令
+   #### 2.2.3 Docker file 手动练习handson来学习命令
+   #### 2.2.4 Docker-compose 手动练习handson来学习命令
 
- ## 3. 资料阅读
- ## 4. Homework
+ ## 3.资料阅读
+ ## 4.Homework
    
-  
-# High level concept introduction
 
 ## 1. 老师介绍
 - Yu Wang 老师--来自澳洲Atlassian公司
 - Jira SRE manager
 	主要工作确保 JIRA software 能够 24 X 7 正常运行
 
-## 2. 几个部分  
+## 2. 主内容  
 
-第一部分：  巩固Devops的概念
+2.1 第一部分：  巩固Devops的概念
    What (Devops 是什么)
    先 High level做个介绍
 
@@ -66,7 +64,7 @@ Devops_Overview.drawio 流程图
 
 
 
-第二部分： Docker
+2.2 第二部分： Docker
 
 container 系统-----程序员只需要专心写程序就好，不管底层的系统。更好的利用资源，轻量级。
 
@@ -138,14 +136,6 @@ Why Docker?
 
 举例：GOOGLE 数据中心， 一个REGION 几千上万的CONTAINER 如果有一个模板复制，就能方便部署时间更快，REQUEST 数量增多了， 可以很快增加CONTAINER的数量，部署之后MONITOR
 
-
-
-
-
-第二部分内容：
-## 4. Docker
-### -4.1 Docker introduction
-### -4.2 Docker handson -three major use cases
 
 ## 每个实验部分分别练习和需要掌握熟悉不同的Docker 命令：
 
@@ -411,6 +401,8 @@ Push an image to a registry
 
 docker push myrepo/myimage:2.0
 
+# 资料阅读
+
 ### More to read
 
 https://docs.docker.com/engine/reference/builder/
@@ -419,7 +411,7 @@ https://docs.docker.com/compose/compose-file/compose-file-v3/
 
 https://docs.docker.com/compose/faq/
 
-## Best Practices 
+### Best Practices 
 Please read these pages to understand the best practices 
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
