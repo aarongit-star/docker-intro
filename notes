@@ -88,7 +88,24 @@ KEY BENEFITS:
 	需要注意：container名字叫 webapp_1
 	dockerfile: 需要会读和写，理解
 	可以在docker hub上找相关信息: 比如查alpine
+```
+FROM python:3
 
+# set a directory for the app
+WORKDIR /usr/src/app
+
+# copy all the files to the container
+COPY . .
+
+# install dependencies
+RUN pip install --no-cache-dir -r ./src/requirements.txt
+
+# define the port number the container should expose
+EXPOSE 5000
+
+# run the command
+CMD ["python", "./src/app.py"]
+```
 	Docker file 例子：
 ```
 FROM python:3
