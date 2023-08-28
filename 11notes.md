@@ -1,4 +1,17 @@
+# 笔记内容
+ ## 1.老师介绍
+ ## 2.主内容
+  2.1 第一部分---巩固Devops的概念
+  2.2 第二部分---Docker
+   2.2.1 Docker introduction
+   2.2.2 Docker CLI 手动练习handson来学习命令
+   2.2.3 Docker file 手动练习handson来学习命令
+   2.2.4 Docker-compose 手动练习handson来学习命令
 
+ ## 3. 资料阅读
+ ## 4. Homework
+   
+  
 # High level concept introduction
 
 ## 1. 老师介绍
@@ -414,6 +427,8 @@ https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/#overview
 
 https://docs.docker.com/ci-cd/github-actions/
+
+
 # Homework
 Find a trending dockerised service from github that interests you the most e.g. https://github.com/search?o=desc&q=dockerised&s=stars&type=Repositories
 
