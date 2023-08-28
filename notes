@@ -108,6 +108,7 @@ EXPOSE 5000
 # run the command
 CMD ["python", "./src/app.py"]
 ```
+
    Flask (Python framework)
    http: default port 80
    https: default port 443
