@@ -28,14 +28,15 @@
 	A business owner run a company , to run a website in cloud.   before  hire only one developer,  
 after hire 10 developer  同时做网站的开发， 都同时做REALESE的时候，就会有CONFLICTS,如何更快更好的把FEATURE交付给客户。need more features and do the devlopment at the sime , conflicts might happen during release.
 
-如果
+
 火车理论：
 	打比方每个火车就是同一个起点出发， DEVOPS 相当于一个 COORDINATOR，哪辆火车先出发，哪辆后出发 ， 
 如果FEATURE的DELIVERY有BUG 可以让火车回到原点，让加速我们FEATURE的DELOPYMENT,  DEVOPS设计好铁轨，MONITOR好铁轨。如何加速FEATURE的流程，造铁轨
 
 Devops解决的问题：如何加速FEATURE的DELO,如何让用户能够更快更好的最新DEV的FEATURE
 
-！【DEVOPS CYCLE】(pictures/inner-outer-loop.png)
+![Alt text](pictures/devops.png?raw=true)
+
 这个循环中：
 PLAN& CODE ----developer经常做的，DEVOPS需要了解知道，会做些CONFIGUREATION CHANGE 和开发
 BUILD/RELEASE/DEPLOY/----主要DEVOPS engineer 做的 
@@ -142,7 +143,7 @@ Why Docker?
 
 ## 每个实验部分分别练习和需要掌握熟悉不同的Docker 命令：
 
-#### -Handson #1 ：understand Docker image and container
+#### Handson #1 ：understand Docker image and container
 	首先是确保Docker打开，我用的是Linux 直接在TERMIMAL上设置
         （需要能熟练使用linux命令如： ls/cd/copy等， 还需要注意路径）
 	第一个掌握command: build
@@ -152,7 +153,7 @@ Why Docker?
 	dockerfile: 需要会读和写，理解
 	可以在docker hub上找相关信息: 比如查alpine
 
-	Docker file 例子：
+Docker file 例子：
 ```
 FROM python:3
 
