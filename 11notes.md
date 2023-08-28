@@ -37,7 +37,7 @@ after hire 10 developer  同时做网站的开发， 都同时做REALESE的时�
 
 Devops解决的问题：如何加速FEATURE的DELO,如何让用户能够更快更好的最新DEV的FEATURE
 
-！【DEVOPS CYCLE】(/pictures/inner-outer-loop.png)
+！【DEVOPS CYCLE】(pictures/inner-outer-loop.png)
 这个循环中：
 PLAN& CODE ----developer经常做的，DEVOPS需要了解知道，会做些CONFIGUREATION CHANGE 和开发
 BUILD/RELEASE/DEPLOY/----主要DEVOPS engineer 做的 
@@ -89,7 +89,7 @@ container, which is easily distributable and can run virtually anywhere.
 Docker has been designed in a way that it can be incorporated into most DevOps applications, including Puppet, Chef, 
 Vagrant, Ansible and many more, or it can be used on its own to manage development environments.
 
-![Alt text](images/inner-outer-loop.png?raw=true)
+![Alt text](pictures/inner-outer-loop.png?raw=true)
 
 ### Key Benefits
 
