@@ -5,12 +5,12 @@
     - [2.2 第二部分 Docker](#第二部分docker)
     	- [2.2.1 Docker introduction](#docker-introduction)
        	- [2.2.2 Docker CLI 手动练习handson来学习命令](#docker-cli手动练习handson来学习命令)
-       	- [2.2.3 Docker file 手动练习handson来学习命令](#cloud-eng)
-       	- [2.2.4 Docker-compose 手动练习handson来学习命令](#cloud-eng)
-  - [3.资料阅读](#2webapp-components)
-  - [4.Homework](#2webapp-components)
+       	- [2.2.3 Docker file 手动练习handson来学习命令](#docker-file手动练习handson来学习命令)
+       	- [2.2.4 Docker-compose 手动练习handson来学习命令](#docker-compose手动练习handson来学习命令)
+  - [3.资料阅读](#3资料阅读)
+  - [4.Homework](#4homework)
 
-## 1.老师介绍
+
 ## 1.老师介绍
 - Yu Wang 老师--来自澳洲Atlassian公司
 - Jira SRE manager
@@ -18,7 +18,7 @@
 
 ## 2.主内容  
 
-2.1 第一部分：  巩固Devops的概念
+### 2.1 第一部分 巩固Devops的概念
    What (Devops 是什么)
    先 High level做个介绍
 
@@ -64,7 +64,8 @@ Devops_Overview.drawio 流程图
 
 
 
-2.2 第二部分： Docker
+### 2.2 第二部分： Docker
+#### 2.2.1 Docker introduction
 
 ![Alt text](pictures/Container_VM_Implementation.png?raw=true)
 
@@ -139,10 +140,10 @@ Why Docker?
 
 举例：GOOGLE 数据中心， 一个REGION 几千上万的CONTAINER 如果有一个模板复制，就能方便部署时间更快，REQUEST 数量增多了， 可以很快增加CONTAINER的数量，部署之后MONITOR
 
+#### 2.2.2 Docker CLI 手动练习handson来学习命令
+-每个实验部分分别练习和需要掌握熟悉不同的Docker 命令：
 
-## 每个实验部分分别练习和需要掌握熟悉不同的Docker 命令：
-
-#### Handson #1 ：understand Docker image and container
+##### Handson #1 ：understand Docker image and container
 	首先是确保Docker打开，我用的是Linux 直接在TERMIMAL上设置
         （需要能熟练使用linux命令如： ls/cd/copy等， 还需要注意路径）
 	第一个掌握command: build
@@ -172,15 +173,14 @@ EXPOSE 5000
 CMD ["python", "./src/app.py"]
 ```
 
+几个注意点：
    Flask (Python framework)
    http: default port 80
    https: default port 443
    you can use ports after 1024 like port 5000 or  port 5001
 
 
-app.py
-
-最基本最简单的访问网站的过程图解（Docker---->Linux系统（PYTHON,运行app.py文件， 80端口映射5000端口)
+最基本最简单的访问网站的过程（Docker---->Linux系统（PYTHON,运行app.py文件， 80端口映射5000端口)
 ```
 docker run -p 80:5000 --name webapp_1 myimage:1.0
 ```
@@ -196,8 +196,8 @@ docker exec -it webapp_1 /bin/bash
 ```
 
 
-
-## 4 practices for docker file:
+#### 2.2.3 Docker file 手动练习handson来学习命令
+-4 practices for docker file:
 
 
 #1. console-helloworld
@@ -350,7 +350,8 @@ EXPOSE
 ENTRYPOINT
 以上命令和详细信息，还有一些小练习可以参考链接：https://github.com/JiangRenDevOps/DevOpsNotes/blob/master/WK3_Dockerisation/0.docker-intro.md
 
-## 会了docker file 之后，我们来到了docker-compose
+#### 2.2.4 Docker-compose 手动练习handson来学习命令
+-会了docker file 之后，我们来到了docker-compose
 参考链接：https://github.com/JiangRenDevOps/DevOpsNotes/tree/master/WK3_Dockerisation/docker-compose
 要学会看以下的yml文件:
 ```
@@ -379,8 +380,11 @@ services:
 ```
 
 主要命令：
-# Start compose
+
+```
+#Start compose
 docker-compose up
+```
 
 通过这个docker-compose命令和配置，把我们刚刚练习的4个CONTAINER都运行起来了，自己运行，运行完了就自己清理关闭掉。在production环境里面，我们通常会有一个主程序，在主程序周围也会有一些副程序来运行一些功能来辅助主程序。可以通过docker-compose来启动。---》 后续我们会学到 K8S,或者 DOCKER SWARM来做 ORCHESTRATION
 
@@ -404,7 +408,7 @@ Push an image to a registry
 
 docker push myrepo/myimage:2.0
 
-# 资料阅读
+## 资料阅读
 
 ### More to read
 
@@ -424,7 +428,7 @@ https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-
 https://docs.docker.com/ci-cd/github-actions/
 
 
-# Homework
+## Homework
 Find a trending dockerised service from github that interests you the most e.g. https://github.com/search?o=desc&q=dockerised&s=stars&type=Repositories
 
 Task1: Try to read and understand the docker-cli, dockerfile and docker-compose file.
