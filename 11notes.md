@@ -408,7 +408,7 @@ Push an image to a registry
 
 docker push myrepo/myimage:2.0
 
-## 资料阅读
+## 3.资料阅读
 
 ### More to read
 
@@ -428,7 +428,7 @@ https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-
 https://docs.docker.com/ci-cd/github-actions/
 
 
-## Homework
+## 4.Homework
 Find a trending dockerised service from github that interests you the most e.g. https://github.com/search?o=desc&q=dockerised&s=stars&type=Repositories
 
 Task1: Try to read and understand the docker-cli, dockerfile and docker-compose file.
