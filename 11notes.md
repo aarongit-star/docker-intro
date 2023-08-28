@@ -65,6 +65,7 @@ Devops_Overview.drawio 流程图
 
 
 2.2 第二部分： Docker
+![Alt text](pictures/Container_VM_Implementation.png?raw=true)
 
 container 系统-----程序员只需要专心写程序就好，不管底层的系统。更好的利用资源，轻量级。
 
