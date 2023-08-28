@@ -1,23 +1,22 @@
-# 笔记内容
- ## 1.老师介绍
- ## 2.主内容
-  ### 2.1 第一部分---巩固Devops的概念
-  ### 2.2 第二部分---Docker
-   #### 2.2.1 Docker introduction
-   #### 2.2.2 Docker CLI 手动练习handson来学习命令
-   #### 2.2.3 Docker file 手动练习handson来学习命令
-   #### 2.2.4 Docker-compose 手动练习handson来学习命令
+## 主要知识点
+  - [1.老师介绍](#1老师介绍)
+  - [2.主内容](#2主内容)
+    - [2.1 第一部分 巩固Devops的概念](#第一部分巩固devops的概念)
+    - [2.2 第二部分 Docker](#第二部分docker)
+    	- [2.2.1 Docker introduction](#docker-introduction)
+       	- [2.2.2 Docker CLI 手动练习handson来学习命令](#docker-cli手动练习handson来学习命令)
+       	- [2.2.3 Docker file 手动练习handson来学习命令](#cloud-eng)
+       	- [2.2.4 Docker-compose 手动练习handson来学习命令](#cloud-eng)
+  - [3.资料阅读](#2webapp-components)
+  - [4.Homework](#2webapp-components)
 
- ## 3.资料阅读
- ## 4.Homework
-   
-
-## 1. 老师介绍
+## 1.老师介绍
+## 1.老师介绍
 - Yu Wang 老师--来自澳洲Atlassian公司
 - Jira SRE manager
 	主要工作确保 JIRA software 能够 24 X 7 正常运行
 
-## 2. 主内容  
+## 2.主内容  
 
 2.1 第一部分：  巩固Devops的概念
    What (Devops 是什么)
