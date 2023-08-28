@@ -24,9 +24,8 @@
 
    WHY (为什么)
    举例：
-	A business owner run a company , to run a website in cloud.   before  hire only one developer,  
-after hire 10 developer  同时做网站的开发， 都同时做REALESE的时候，就会有CONFLICTS,如何更快更好的把FEATURE交付给客户。need more features and do the devlopment at the sime , conflicts might happen during release.
-
+	A business owner runs a website in cloud.   before  hire only one developer-刚刚开始，网站只有简单的feature 
+后续需要加的feature越来越多，hire 10 developer，当这么多个Dev同时做网站的开发， 都同时做REALESE的时候，就会有CONFLICTS,如何更快更好的把FEATURE交付给客户。这个流程就是Devops做的。
 
 火车理论：
 	打比方每个火车就是同一个起点出发， DEVOPS 相当于一个 COORDINATOR，哪辆火车先出发，哪辆后出发 ， 
@@ -47,7 +46,7 @@ DEVOPS CYCLE 是一个CULTURE,  每天定时好几次部署， 自动化的流�
 
 SRE的工作：产品交付给用户之后，用户会在软件上面访问测试等，会造成服务器的压力，来监控产品交付给用户后，他们运行的状态，来保证用户使用的工作正常。
 
-SRE 的 工作 ：
+SRE的工作 ：
 小团队服务百万级用户使用云产品
 服务器（电脑） ----它的CPU,DISK ,MEMORY是有物理极限的,不预测对方是如何使用， 很容易导致我们的系统崩溃
 
@@ -86,12 +85,11 @@ packages called containers.
 Docker enables developers to easily pack, ship, and run any application as a lightweight, portable, self-sufficient 
 container, which is easily distributable and can run virtually anywhere.
 
-![Alt text](images/Container_VM_Implementation.png?raw=true)
 
 Docker has been designed in a way that it can be incorporated into most DevOps applications, including Puppet, Chef, 
 Vagrant, Ansible and many more, or it can be used on its own to manage development environments.
 
-![Alt text](pictures/inner-outer-loop.png?raw=true)
+
 
 ### Key Benefits
 
@@ -134,7 +132,7 @@ Why Docker?
  
 如图1：Docker 的使用会贯穿整个CI/CD的过程
 	
-![Alt text](images/cicdgitlab.png?raw=true)
+![Alt text](pictures/inner-outer-loop.png?raw=true)
 
 --image repo 的作用 
 
@@ -295,7 +293,7 @@ In the browser, open http://localhost/?city=jin and you will get a list of citie
 http://localhost/?city=au
 http://localhost/?city=sh
 http://localhost/?city=ing
-等
+
 然后自动返回结果，在command line里面提供这些信息
 
 --->通过分析Dockerfile，我们来看看是怎么实现的呢？
@@ -388,7 +386,8 @@ docker-compose up
 
 通过这个docker-compose命令和配置，把我们刚刚练习的4个CONTAINER都运行起来了，自己运行，运行完了就自己清理关闭掉。在production环境里面，我们通常会有一个主程序，在主程序周围也会有一些副程序来运行一些功能来辅助主程序。可以通过docker-compose来启动。---》 后续我们会学到 K8S,或者 DOCKER SWARM来做 ORCHESTRATION
 
-docker-compose.yml file（有自己的格式，自己掌握）
+docker-compose.yml file（yml有自己的格式，自己掌握）
+
 Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to
 configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
 
@@ -397,6 +396,8 @@ If you finished today's exercises try: https://docs.docker.com/compose/gettingst
 ### docker-registry.md
 
 链接：https://github.com/JiangRenDevOps/DevOpsNotes/blob/master/WK3_Dockerisation/4.docker-registry.md
+
+
 Share
 Pull an image from a registry
 
