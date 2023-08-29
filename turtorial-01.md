@@ -2,7 +2,7 @@
 ## 主要知识点
   - [About Me 老师介绍](#老师介绍)
   - [本节知识点](#本节知识点)
-    - [1. Advices for New DevOps](#advices-for-new-devOps)
+    - [1. Advices for New DevOps](#advices-for-new-devops)
     - [2.Security](#security)
     - [3. Working platform](#working-platform)
     - [4. Termimal tools](#termimal-tools)
