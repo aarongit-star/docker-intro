@@ -15,12 +15,12 @@
 
 
 # About Me(老师介绍)
- William Wang
- 研发--->售前(国内）--->NETWORK ENGINEER澳洲--->AMAZON NDE--->VMWARE PROFESSIONAL SERVICE--->ATLASSIAN 软件开发 
+ - William Wang
+ - 研发--->售前(国内）--->NETWORK ENGINEER澳洲--->AMAZON NDE--->VMWARE PROFESSIONAL SERVICE--->ATLASSIAN 软件开发 
   转行或者换跑道的注意点
-  会接触到网络工程师，软件工程师，需要知道了解他们说的术语等
-  考证书的相关：
-    考证---有证书CLOUD,LINUX等 可以加分
+  - 会接触到网络工程师，软件工程师，需要知道了解他们说的术语等
+  - 考证书的相关：
+     考证---有证书CLOUD,LINUX等 可以加分
 
 # 本节知识点
 ## 1. Advices for New DevOps
