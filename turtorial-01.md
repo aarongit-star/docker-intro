@@ -1,6 +1,6 @@
 # DevOps 初讲-Tutorial 1 - Fundamental
 ## 主要知识点
-  - [About Me 老师介绍](#about-me)
+  - [About Me 老师介绍](#老师介绍)
   - [本节知识点](#本节知识点)
     - [1. Advices for New DevOps](#advices-for-new-devOps)
     - [2.Security](#security)
