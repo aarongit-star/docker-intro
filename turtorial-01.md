@@ -1,6 +1,6 @@
 # DevOps 初讲-Tutorial 1 - Fundamental
 ## 主要知识点
-  - [About Me 老师介绍](#老师介绍)
+  - [老师介绍](#老师介绍)
   - [本节知识点](#本节知识点)
     - [1. Advices for New DevOps](#advices-for-new-devops)
     - [2.Security](#security)
@@ -14,7 +14,7 @@
 
 
 
-# About Me(老师介绍)
+# 老师介绍
  - William Wang
  - 研发--->售前(国内）--->NETWORK ENGINEER澳洲--->AMAZON NDE--->VMWARE PROFESSIONAL SERVICE--->ATLASSIAN 软件开发 
   转行或者换跑道的注意点
